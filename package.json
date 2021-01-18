@@ -1,0 +1,54 @@
+{
+	"author": {
+		"email": "jonah@jonah.pw",
+		"name": "Jonah Snider",
+		"url": "https://jonah.pw"
+	},
+	"bugs": {
+		"url": "https://github.com/pizzafox/netlify-cache-yarn2/issues"
+	},
+	"dependencies": {
+		"@netlify/cache-utils": "1.0.6",
+		"@netlify/run-utils": "1.0.5"
+	},
+	"devDependencies": {
+		"execa": "5.0.0",
+		"prettier": "2.2.1",
+		"prettier-config-xo": "1.0.3",
+		"semantic-release": "17.3.3",
+		"tsdx": "0.14.1",
+		"tslib": "2.1.0",
+		"typescript": "4.1.3"
+	},
+	"engines": {
+		"node": ">=8.3.0"
+	},
+	"files": [
+		"dist",
+		"manifest.yml"
+	],
+	"keywords": [
+		"netlify",
+		"netlify-plugin",
+		"yarn",
+		"yarn2",
+		"cache"
+	],
+	"license": "Apache-2.0",
+	"main": "dist/index.js",
+	"module": "dist/netlify-cache-yarn2.esm.js",
+	"name": "netlify-plugin-cache-yarn2",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pizzafox/netlify-cache-yarn2.git"
+	},
+	"scripts": {
+		"build": "tsdx build",
+		"style": "prettier --check ."
+	},
+	"typings": "dist/index.d.ts",
+	"version": "0.0.0-development",
+	"xo": {
+		"prettier": true
+	}
+}

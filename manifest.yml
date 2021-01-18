@@ -1,0 +1,5 @@
+name: netlify-plugin-cache-yarn2
+inputs:
+  - name: yarn_lockfile_path
+    description: The path to the Yarn lockfile
+    default: 'yarn.lock'
