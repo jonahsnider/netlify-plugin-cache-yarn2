@@ -4,6 +4,7 @@
 		"name": "Jonah Snider",
 		"url": "https://jonah.pw"
 	},
+	"description": "Save the Yarn 2 cache folder between Netlify builds",
 	"bugs": {
 		"url": "https://github.com/pizzafox/netlify-cache-yarn2/issues"
 	},
