@@ -8187,12 +8187,12 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"marked@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "marked@npm:1.0.0"
+"marked@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "marked@npm:2.0.0"
   bin:
     marked: bin/marked
-  checksum: 4121f2f5cb7130e57571780181cddac9e3a8692486045f760baad14c6d896c9481180ad8ab8a36fb9476375ddaa860dbc7d29ecf386b2bfa47d4450a9f866cd4
+  checksum: 5b3b13b9b68beb126284d04fedeacee37c847618c091cf575eaa32746cf0af2d65b1ed25b2cc9269b0cdffa2e8dc5aa2daacff81ead68c59a7a6a1656f1d28ed
   languageName: node
   linkType: hard
 
@@ -8548,7 +8548,7 @@ fsevents@^2.1.2:
     execa: 5.0.0
     prettier: 2.2.1
     prettier-config-xo: 1.0.3
-    semantic-release: 17.3.7
+    semantic-release: 17.3.8
     tsdx: 0.14.1
     tslib: 2.1.0
     typescript: 4.1.4
@@ -10826,9 +10826,9 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:17.3.7":
-  version: 17.3.7
-  resolution: "semantic-release@npm:17.3.7"
+"semantic-release@npm:17.3.8":
+  version: 17.3.8
+  resolution: "semantic-release@npm:17.3.8"
   dependencies:
     "@semantic-release/commit-analyzer": ^8.0.0
     "@semantic-release/error": ^2.2.0
@@ -10847,7 +10847,7 @@ resolve@1.1.7:
     hook-std: ^2.0.0
     hosted-git-info: ^3.0.0
     lodash: ^4.17.15
-    marked: ^1.0.0
+    marked: ^2.0.0
     marked-terminal: ^4.0.0
     micromatch: ^4.0.2
     p-each-series: ^2.1.0
@@ -10860,7 +10860,7 @@ resolve@1.1.7:
     yargs: ^16.2.0
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: 171d750c4dc6a635f344be5c0d8c67e7903875a851fd16c104b2aa2a9ba10d88d24aab5f7f4d1df4684b8865e0fdf33b3f5fe62939fd8038a4c7e7a1ddcec05e
+  checksum: 47c47f41bc10c1dbf8e02c66878d8bb733f454fddd2b2a6171cab0350960743a080656ca810ba656ed44c07c153662f10ee304d678789322ee3348eca3998bd7
   languageName: node
   linkType: hard
 
