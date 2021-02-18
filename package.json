@@ -9,7 +9,7 @@
 		"url": "https://github.com/pizzafox/netlify-plugin-cache-yarn2/issues"
 	},
 	"dependencies": {
-		"@netlify/cache-utils": "1.0.6",
+		"@netlify/cache-utils": "1.0.7",
 		"@netlify/run-utils": "1.0.5"
 	},
 	"devDependencies": {
