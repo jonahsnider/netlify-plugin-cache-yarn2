@@ -1492,9 +1492,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@netlify/cache-utils@npm:1.0.6":
-  version: 1.0.6
-  resolution: "@netlify/cache-utils@npm:1.0.6"
+"@netlify/cache-utils@npm:1.0.7":
+  version: 1.0.7
+  resolution: "@netlify/cache-utils@npm:1.0.7"
   dependencies:
     array-flat-polyfill: ^1.0.1
     cpy: ^8.1.0
@@ -1507,7 +1507,7 @@ __metadata:
     move-file: ^1.2.0
     path-exists: ^4.0.0
     readdirp: ^3.4.0
-  checksum: 8ec8383dbd954c5e0392c6b8eb78d903da37cb55e1dc5a4dfea26d86a9cb19d4a56350d9de77a0198ef35ad79750a9d5ed84c1caf815166a4d6e188819c758bc
+  checksum: 3199dad44184e4edbef4c8d97cb6e54956d3291889037a4f19c7ec0b1ec6e935e2c961259a96abff3fa012ee1d2f486d3b978b45a2ab837032335da102d5f60d
   languageName: node
   linkType: hard
 
@@ -8543,7 +8543,7 @@ fsevents@^2.1.2:
   version: 0.0.0-use.local
   resolution: "netlify-plugin-cache-yarn2@workspace:."
   dependencies:
-    "@netlify/cache-utils": 1.0.6
+    "@netlify/cache-utils": 1.0.7
     "@netlify/run-utils": 1.0.5
     execa: 5.0.0
     prettier: 2.2.1
