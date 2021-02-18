@@ -1511,12 +1511,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@netlify/run-utils@npm:1.0.5":
-  version: 1.0.5
-  resolution: "@netlify/run-utils@npm:1.0.5"
+"@netlify/run-utils@npm:1.0.6":
+  version: 1.0.6
+  resolution: "@netlify/run-utils@npm:1.0.6"
   dependencies:
     execa: ^3.4.0
-  checksum: cfe9c4f1d58ed51a454854e8ac19814c790a201952de7068a58551b94cb5be784412fe41fe17d7b72056461cdea59ec08984c3d7166001b2ef7257e962f56192
+  checksum: a0791f68ea3ad8e9e5c54dd56b0f555089cf49d6b38e87071fd1a942479e01b35528f502524e5414618149bc396e8b40cfaf9bc05007de5625a08ccf2b013b66
   languageName: node
   linkType: hard
 
@@ -8544,7 +8544,7 @@ fsevents@^2.1.2:
   resolution: "netlify-plugin-cache-yarn2@workspace:."
   dependencies:
     "@netlify/cache-utils": 1.0.7
-    "@netlify/run-utils": 1.0.5
+    "@netlify/run-utils": 1.0.6
     execa: 5.0.0
     prettier: 2.2.1
     prettier-config-xo: 1.0.3
