@@ -2346,12 +2346,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ansi-escapes@npm:^4.2.1, ansi-escapes@npm:^4.3.0":
+"ansi-escapes@npm:^4.2.1":
   version: 4.3.0
   resolution: "ansi-escapes@npm:4.3.0"
   dependencies:
     type-fest: ^0.8.1
   checksum: bb58fe0e263492962288a8bb5008752af9b0be498462b9f12f2249b75495ee9c7d7eaa42801bdf25e62c64a02048826c04be3102b81d03440c428092c169295e
+  languageName: node
+  linkType: hard
+
+"ansi-escapes@npm:^4.3.1":
+  version: 4.3.1
+  resolution: "ansi-escapes@npm:4.3.1"
+  dependencies:
+    type-fest: ^0.11.0
+  checksum: bcb39e57bd32af0236c4ded96aaf8ef5d86c5a4683762b0be998c68cd11d5afd93296f4b5e087a3557da82a899b7c4d081483d603a4d4647e6a6613bf1aded8a
   languageName: node
   linkType: hard
 
@@ -8171,19 +8180,19 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"marked-terminal@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "marked-terminal@npm:4.0.0"
+"marked-terminal@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "marked-terminal@npm:4.1.1"
   dependencies:
-    ansi-escapes: ^4.3.0
+    ansi-escapes: ^4.3.1
     cardinal: ^2.1.1
-    chalk: ^3.0.0
+    chalk: ^4.1.0
     cli-table: ^0.3.1
     node-emoji: ^1.10.0
-    supports-hyperlinks: ^2.0.0
+    supports-hyperlinks: ^2.1.0
   peerDependencies:
-    marked: ^0.4.0 || ^0.5.0 || ^0.6.0 || ^0.7.0 || ^0.8.0
-  checksum: 224018e3b706b86b190158277028fdd4f23a77b86c573759ec330a9331cab442577e804be329c5744bcf3746774ee7a6e74ca403bb48f2c453d6e93f3fabbc10
+    marked: ^1.0.0 || ^2.0.0
+  checksum: 43a1485ef83107f93e45d411eea0a25bb409a30d46bf942f267178849460ad70750c5cca8477d5f9a4fa205952f8ea2b465629181ca3176aa9d4cee0c642cb7c
   languageName: node
   linkType: hard
 
@@ -8548,7 +8557,7 @@ fsevents@^2.1.2:
     execa: 5.0.0
     prettier: 2.2.1
     prettier-config-xo: 1.0.3
-    semantic-release: 17.4.0
+    semantic-release: 17.4.1
     tsdx: 0.14.1
     tslib: 2.1.0
     typescript: 4.1.5
@@ -10826,9 +10835,9 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:17.4.0":
-  version: 17.4.0
-  resolution: "semantic-release@npm:17.4.0"
+"semantic-release@npm:17.4.1":
+  version: 17.4.1
+  resolution: "semantic-release@npm:17.4.1"
   dependencies:
     "@semantic-release/commit-analyzer": ^8.0.0
     "@semantic-release/error": ^2.2.0
@@ -10848,7 +10857,7 @@ resolve@1.1.7:
     hosted-git-info: ^3.0.0
     lodash: ^4.17.15
     marked: ^2.0.0
-    marked-terminal: ^4.0.0
+    marked-terminal: ^4.1.1
     micromatch: ^4.0.2
     p-each-series: ^2.1.0
     p-reduce: ^2.0.0
@@ -10860,7 +10869,7 @@ resolve@1.1.7:
     yargs: ^16.2.0
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: 5f2ae60022c88301667c06a117355fa861581079bd1ad99a74ea410327795f26489df48fcf96096b4833507112c099b1ab7509962ab0df04784ab2e73e2a66c1
+  checksum: 60d6de3f6d2d3b9adec750e776e462ccbc48baebf20ce24236d22e72ffd12967d8d0355727ec607da60fba3933802ad6ea3dbd6a2e63803060d8da1b1499fbde
   languageName: node
   linkType: hard
 
@@ -11649,7 +11658,7 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"supports-hyperlinks@npm:^2.0.0":
+"supports-hyperlinks@npm:^2.0.0, supports-hyperlinks@npm:^2.1.0":
   version: 2.1.0
   resolution: "supports-hyperlinks@npm:2.1.0"
   dependencies:
@@ -12136,6 +12145,13 @@ resolve@1.1.7:
   version: 0.10.0
   resolution: "type-fest@npm:0.10.0"
   checksum: ffcef68641ad37ffe0135844fe24d82aa6ab5963e6c4854d4a8af5e2f14eb8829b1a344567de24abcd353519c4a75a774d43756ac858306719b3d7a6d466a445
+  languageName: node
+  linkType: hard
+
+"type-fest@npm:^0.11.0":
+  version: 0.11.0
+  resolution: "type-fest@npm:0.11.0"
+  checksum: 02e5cadf13590a5724cacf8d9133320efd173f6fb1b695fcb29e56551a315bf0f07ca988a780a1999b7b55bb3eaaa7f37223615207236d393af17bba6749dc95
   languageName: node
   linkType: hard
 
