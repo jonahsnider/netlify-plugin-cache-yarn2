@@ -5,7 +5,7 @@ Save the Yarn 2 cache folder between Netlify builds.
 [![add to netlify](https://img.shields.io/badge/add%20to-netlify-00AD9F)](https://app.netlify.com/plugins/netlify-plugin-cache-yarn2/install)
 [![npm](https://img.shields.io/npm/v/netlify-plugin-cache-yarn2)](https://www.npmjs.com/package/netlify-plugin-cache-yarn2)
 [![downloads per week](https://img.shields.io/npm/dw/netlify-plugin-cache-yarn2)](https://www.npmjs.com/package/netlify-plugin-cache-yarn2)
-[![Build Status](https://github.com/pizzafox/netlify-plugin-cache-yarn2/workflows/CI/badge.svg)](https://github.com/pizzafox/netlify-plugin-cache-yarn2/actions)
+[![Build Status](https://github.com/jonahsnider/netlify-plugin-cache-yarn2/workflows/CI/badge.svg)](https://github.com/jonahsnider/netlify-plugin-cache-yarn2/actions)
 
 A [Netlify build plugin](https://docs.netlify.com/configure-builds/build-plugins/).
 

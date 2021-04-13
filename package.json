@@ -6,7 +6,7 @@
 	},
 	"description": "Save the Yarn 2 cache folder between Netlify builds",
 	"bugs": {
-		"url": "https://github.com/pizzafox/netlify-plugin-cache-yarn2/issues"
+		"url": "https://github.com/jonahsnider/netlify-plugin-cache-yarn2/issues"
 	},
 	"dependencies": {
 		"@netlify/cache-utils": "1.0.7",
@@ -41,7 +41,7 @@
 	"name": "netlify-plugin-cache-yarn2",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/pizzafox/netlify-plugin-cache-yarn2.git"
+		"url": "git+https://github.com/jonahsnider/netlify-plugin-cache-yarn2.git"
 	},
 	"scripts": {
 		"build": "tsdx build",
