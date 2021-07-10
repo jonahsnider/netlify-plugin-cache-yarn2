@@ -56,7 +56,7 @@ module.exports = {
 		const cacheFolder = await getCacheFolder(utils);
 
 		const success = await utils.cache.save(cacheFolder, {
-			digests: [inputs.yarn_lockfile_path]
+			digests: [inputs.yarn_lockfile_path],
 		});
 
 		if (success) {
@@ -64,5 +64,5 @@ module.exports = {
 		} else {
 			console.log(`Couldn't save ${cacheFolder}`);
 		}
-	}
+	},
 };
